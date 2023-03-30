@@ -1,0 +1,39 @@
+
+.parallax {
+    /* The image used */
+    background-image: url("/assets/Commercial-BackGround.jpg");
+  
+    /* Full height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .item-content img{
+    height: 300px;
+    width: 98% ;
+    margin-top: 10px;
+    margin-left: 4px;
+  }
+.vc_single_image-wrapper img{
+  width:650px; 
+  height:523px;
+}
+.text-prag{
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+@media screen and (max-width: 540px){
+  .vc_empty_space_inner{
+    font-size: 35px;
+    font-weight: 500;
+  }
+  .vc_single_image-wrapper img{
+    width:100%; 
+    height:100%;
+  }
+}

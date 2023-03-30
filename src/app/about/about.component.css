@@ -1,0 +1,99 @@
+
+.parallax {
+    /* The image used */
+    background-image: url("/assets/About-Us.jpg");
+  
+    /* Full height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container h1{
+    font-size: 50px;
+    color: black;
+  }
+.image img{
+    width: 500px;
+    height: 600px;
+    margin-bottom: 50px;
+}
+.text-prag{
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.about-block{
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+/* .why-choose__inner .box-body p {
+    line-height: 20px;
+    font-size: 20px;
+    padding-top: 6%;
+    font-weight: 700;
+} */
+/* .box-body--left{
+    margin-right: 20px !important;
+} */
+/* .advantage1, .advantage2, .advantage3, .advantage4, .advantage5, .advantage6, .advantage7, .advantage8 {
+    background-image: url(https://www.decorpot.com/home-interiors/interior-designers/images/advantage6.png);
+    height: 65px;
+    background-repeat: no-repeat;
+} */
+/* 
+.advantage1 {
+    background-position: 45% -3%;
+}
+.advantage2 {
+    background-position: 45% 12%;
+}
+.advantage3 {
+    background-position: 45% 27%;
+}
+.advantage4 {
+    background-position: 45% 42%;
+}
+.advantage5 {
+    background-position: 45% 57%;
+}
+.advantage6 {
+    background-position: 45% 72%;
+}
+.advantage7 {
+    background-position: 45% 88%;
+}
+.advantage8 {
+    background-position: 45% 103%;
+} */
+
+.why-choose__inner .box-head--right {
+    float: right;
+}
+
+.why-choose__inner .box-head--border {
+    border: 3px solid #bbb;
+    margin-bottom: 35px;
+}
+
+.why-choose__inner .box-head {
+    width: 88px;
+}
+.box-head--border {
+    width: 68px;
+    line-height: 64px;
+    text-align: center;
+}
+.box-head {
+    float: left;
+}
+
+
+@media screen and (max-width: 540px){
+    .text-about{
+        font-size: 33px !important;
+        margin-top: 15px;
+    }
+}

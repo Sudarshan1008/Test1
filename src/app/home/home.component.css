@@ -1,0 +1,270 @@
+/*  what we do   */
+.graybox{
+    margin-top: 80px;
+}
+ /* Home Page Main image  */
+.carousel-fade img{
+    height: 80vh !important;
+}
+ /* Customer Ratings  */
+.carousel-white{
+    background-image: url(/assets/Our-Works/left1.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*  what we do  start */
+.graybox{
+    margin-top: 80px;
+}
+   /* What We Do  */
+  .nopadd img {
+    width: 560px !important;
+    margin-left: -2px;
+    
+   /* What We Do  */ 
+  }
+  #image img{
+    margin-left: -11.1px ;
+  }
+
+  .col-md-5{
+ 
+    width: 562px;
+
+  }
+
+  .col-md-7{
+    width: 570.8px;
+  }
+
+   /* whta we do  */
+.work-block h2{
+    color: #000000;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+ /* whta we do  */
+ .work-block h4{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 500;
+}
+.btn-danger{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/*  what we do  end */
+
+
+/* Latest Project start    */
+.bg-image {
+    height: 280px;
+    width: 318px;
+    position: relative;
+    overflow: hidden
+}
+
+.bg-image img {
+    width: 100%;
+    height: 100%
+}
+
+.content {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    padding-left: 5px;
+    transition: all 0.7s;
+    opacity: 0.7
+}
+
+.bg-image:hover .content {
+    left: 0
+}
+
+.content p {
+    border-top: 1px solid white;
+     
+}
+
+
+.content1 {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    padding-left: 5px;
+    transition: all 0.7s;
+    opacity: 0.7
+}
+
+.bg-image:hover .content1 {
+    top: 0
+}
+
+.content1 p {
+    border-top: 1px solid white;
+
+}
+
+.content2 {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    padding-left: 5px;
+    transition: all 0.7s;
+    opacity: 0.7
+}
+
+.bg-image:hover .content2 {
+    left: 0
+}
+
+.content2 p {
+    border-top: 1px solid white;
+    
+}
+
+.content3 {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    padding-left: 5px;
+    transition: all 0.7s;
+    opacity: 0.7
+}
+
+.bg-image:hover .content3 {
+    right: 0
+}
+
+.content3 p {
+    border-top: 1px solid white;
+    
+}
+/* Latest Project end   */
+
+ /* It's Simpler Than You "Think" start */
+.btn-lg{
+    height: 200px;
+    
+}
+.btn-lg1:hover{
+    background-color: #FFB6C1;
+    color: rgb(255, 255, 255);
+}
+.btn-lg2:hover{
+    background-color:  #FDFD96;
+    color: rgb(255, 255, 255);
+}
+.btn-lg3:hover{
+    background-color:  #ADD8E6;
+    color: rgb(255, 255, 255);
+}
+.btn-lg4:hover{
+    background-color: #FFD580;
+    color: rgb(255, 255, 255);
+}
+.ul li{
+    display: inline;
+}
+/* It's Simpler Than You "Think" end */
+
+ /* Why choose Us cards */
+.service-title{
+    text-transform: uppercase;
+    color: rgb(107, 24, 24);
+    font-size: 35px;
+    font-weight: 500;
+}
+
+ /* Why choose Us  */
+.section-title{
+    font-size: 45px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    text-transform:uppercase;
+    margin-top: 15px;
+}
+ /* Its Simpler then you think  */
+.Simpler{
+    text-align: center;
+    color: #000000;
+}
+.card:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.16), 0 4px 10px rgba(0,0,0,0.23);
+  }
+ /* Latest Project  */
+.Latest{
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.text-prag{
+    letter-spacing: 1px;
+    word-spacing: 3px;
+  }
+
+  
+  @media screen and (max-width: 540px){
+    .carousel-fade img{
+        height: 400px !important;
+    }
+    /* whta we do   */
+    .nopadd img{
+        width: 100% !important;
+        margin-top: 10px;
+        margin-left: -2px !important;
+    }
+    .graybox{
+        margin-top: 25px !important;
+    }
+    .de_nav{
+        margin-left: -19px;
+    }
+    .bg-image{
+        width: 98%;
+        margin-left: 3px;
+    }
+    .navbar-toggler button{
+        background-color: rgb(114, 11, 11) !important;
+    }
+    .section-title {
+        font-size: 40px;
+    }
+    .wpb_wrapper h1{
+        font-size: 35px;
+    }
+    .process{
+        margin-top: 10px ;
+        margin-right: 40px;
+    }
+    .why-card {
+        margin-left: 10px;
+    }
+    .range_Customization{
+        height: 320px;
+    }   
+  }
+  
